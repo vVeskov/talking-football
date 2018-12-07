@@ -1,3 +1,6 @@
+body{
+    background: #E6E6E6
+}
 body.about .box{
 display: none;
 }
@@ -16,6 +19,7 @@ display: none;
 .site-title a{
     text-decoration: none;
     font-size: 2em;
+    padding-left: 0.5em;
 }
 .site-description{
     padding: 0;
@@ -30,9 +34,7 @@ display: none;
     color:red;
     font-family: 'Source Code Pro', monospace;
 }
-body{
-    background: #F3F1F3;
-}
+
 .alex-ferguson{
     margin: 0.5em 2em;
     display: flex;
@@ -54,14 +56,22 @@ body{
 .alex-ferguson img{
     max-width: 70%;
     height: auto;
+    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+
 }
 .alex-ferguson p{
     font-weight: bold;
+    color: black;
+   text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
 .alex-ferguson .quote-author{
     font-family: 'Charmonman', cursive;
     color:#FB1515;
     font-size: 1.2em;
-    border-bottom: 1px solid #FB1515;
+    
+    text-shadow: 2px 2px 5px black;
+}
+.quote-author{
+    text-align: right;
 }
 
