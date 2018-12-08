@@ -1,39 +1,3 @@
-body{
-    background: #E6E6E6
-}
-body.about .box{
-display: none;
-}
-.listing-posts{
-    display: none;
-}
-.site-header{
-    background: #252525;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5em 0;
-}
-.site-title a{
-    text-decoration: none;
-    font-size: 2em;
-    padding-left: 0.5em;
-}
-.site-description{
-    padding: 0;
-    color:#FFFFFF;
-    font-weight: bold;
-}
-.site-header span{
-    color:white;
-    font-family: 'Source Code Pro', monospace;
-}
-.site-header span:last-of-type{
-    color:red;
-    font-family: 'Source Code Pro', monospace;
-}
-
 .welcome-image{
     max-width: 80%;
     height: 70vh;
@@ -62,5 +26,3 @@ display: none;
     background: black;
     opacity: 0.5;
 }
-
-
