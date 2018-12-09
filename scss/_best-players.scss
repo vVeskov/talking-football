@@ -1,0 +1,39 @@
+.best-players{
+    margin:1em 2em 2em 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.best-players img{
+    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+}
+.goalkeepers, .defenders, .midfielders, .attackers {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goalkeepers:hover, .defenders:hover, .midfielders:hover, .attackers:hover{
+    border:2px solid black;
+    border-radius: 0.3rem;
+}
+.best-players p{
+    padding-bottom: 1em;
+}
+.best-players img{
+    border-radius: 0.3rem;
+    margin-bottom: 0.5em;
+}
+.best-players button{
+    background: black;
+    color:white;
+    padding:0.5em 0.8em;
+    border-radius: 0.3rem;
+}
+.best-players button:hover{
+    background: black;  
+    color:red;
+}

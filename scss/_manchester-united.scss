@@ -1,8 +1,8 @@
 .alex-ferguson{
-    max-width: 80%;
+    max-width: 100%;
     overflow: hidden;
     margin: 0.5em 2em;
-    margin:1em auto;
+    // margin:1em auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,7 +22,7 @@
 .alex-ferguson .alex-wrapper{
     max-width: 75%;
     overflow: hidden;
-    height: auto;
+    height: 75vh;
     box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
 
 }

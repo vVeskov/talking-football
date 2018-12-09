@@ -1,0 +1,17 @@
+body.best-matches .welcome,body.best-matches .best-players,.body.best-matches .best-matches-wrapper{
+    display: none;
+}
+
+.best-all-time-matches{
+    margin:1em 2em 0.3em 2em;
+}
+.best-all-time-matches div{
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+}
+.best-all-time-matches img {
+    border-radius: 0.3rem;
+    max-width: 100%;
+    height: auto;
+}

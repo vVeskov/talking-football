@@ -1,8 +1,5 @@
 body{
-    background: #E6E6E6
-}
-body.about .box{
-display: none;
+    background: #E6E6E6;
 }
 .listing-posts{
     display: none;
@@ -33,34 +30,34 @@ display: none;
     color:red;
     font-family: 'Source Code Pro', monospace;
 }
+.best-matches-wrapper{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin:3rem 4em 0.3em 4em;
+ border-radius: 0.3rem;
+ opacity: 0.7;
+ 
+}
+.best-matches-wrapper .fas{
+    font-size: 5em;
+    color:red;
+    padding-right: 1em;
+}
+.best-matches-wrapper a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    padding: 0.5rem 0;
+}
+.best-matches-wrapper a:hover{
+    color:red;
+    border-bottom: 2px solid black;
+}
 
-.welcome-image{
-    max-width: 80%;
-    height: 70vh;
-    background-image: url('https://populous.com/wp-content/uploads/1219_TOTTENHAM_UPDATES_VIEW_01_UPPER_SEATS_REV_O1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin:0 auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.welcome .welcome-image h2{
-    color:white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-.welcome .welcome-image p{
-    border:1px solid black;
-    color:white;
-    font-weight:bold;
-    max-width: 50%;
-    text-align: center;
-    padding-bottom: 0;
-    margin-top: 2em;
-    background: black;
-    opacity: 0.5;
-}
+
+
 
 

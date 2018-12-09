@@ -1,5 +1,9 @@
+.welcome{
+    margin:0.3em 2em 0.3em 2em;
+    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+}
 .welcome-image{
-    max-width: 80%;
+    max-width: 100%;
     height: 70vh;
     background-image: url('https://populous.com/wp-content/uploads/1219_TOTTENHAM_UPDATES_VIEW_01_UPPER_SEATS_REV_O1.jpg');
     background-size: cover;
@@ -13,7 +17,7 @@
 }
 .welcome .welcome-image h2{
     color:white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 .welcome .welcome-image p{
     border:1px solid black;
