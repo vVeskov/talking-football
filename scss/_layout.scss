@@ -36,16 +36,17 @@ body{
  align-items: center;
  justify-content: center;
  flex-wrap: wrap;
- margin:3rem 4em 0.3em 4em;
+ margin:4em 4em 0.3em 4em;
  border-radius: 0.3rem;
  opacity: 0.7;
  
 }
-.best-matches-wrapper .fas{
-    font-size: 5em;
-    color:red;
-    padding-right: 1em;
+.best-matches-wrapper img{
+    margin-right: 2em;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
 }
+
 .best-matches-wrapper a{
     text-decoration: none;
     font-size: 1.5em;
@@ -55,6 +56,9 @@ body{
 .best-matches-wrapper a:hover{
     color:red;
     border-bottom: 2px solid black;
+}
+.best-matches-wrapper span{
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
 
