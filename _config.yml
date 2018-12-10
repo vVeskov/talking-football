@@ -2,7 +2,7 @@
 title: Talking Football
 email: vv_softuni@abv.bg
 description: >- # this means to ignore newlines until "baseurl:"
-  The best football site you`ll ever see !
+  It`s all about football !
 baseurl: "/talking-football" 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 destination: "docs"

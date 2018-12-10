@@ -3,14 +3,18 @@ body.best-matches .welcome,body.best-matches .best-players,.body.best-matches .b
 }
 
 .best-all-time-matches{
-    margin:1em 2em 0.3em 2em;
+    margin:2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .best-all-time-matches div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 45%;
+    max-width: 80%;
     margin-bottom: 1em;
     padding: 0.5em;
 }
@@ -24,11 +28,11 @@ body.best-matches .welcome,body.best-matches .best-players,.body.best-matches .b
     margin-bottom: 1em;
 }
 .best-all-time-matches div .number{
-    color:red;
+    
     border:1px solid black;
     padding: 0.1em 0.2em; 
     border-radius: 50%;
-    background: black;
+  
 }
 .best-all-time-matches div span {
     padding-top:0.5em;
@@ -38,4 +42,7 @@ body.best-matches .welcome,body.best-matches .best-players,.body.best-matches .b
 .best-all-time-matches div:hover{
     border:1.5px solid grey;
     box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+}
+.best-all-time-matches p{
+    padding-left:0.7em;
 }

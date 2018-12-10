@@ -4,8 +4,9 @@
 }
 .welcome-image{
     max-width: 100%;
-    height: 70vh;
-    background-image: url('https://populous.com/wp-content/uploads/1219_TOTTENHAM_UPDATES_VIEW_01_UPPER_SEATS_REV_O1.jpg');
+    height: auto;
+    // background-image: url('https://populous.com/wp-content/uploads/1219_TOTTENHAM_UPDATES_VIEW_01_UPPER_SEATS_REV_O1.jpg');
+    background-image: url('https://www.bestwestern.co.uk/images/default-source/Inspire-Me/old-trafford-manchester-united.jpg?sfvrsn=0');
     background-size: cover;
     background-repeat: no-repeat;
     margin:0 auto;
@@ -16,8 +17,9 @@
     align-items: center;
 }
 .welcome .welcome-image h2{
-    color:white;
-    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
+    padding-top:1em;
+    color:red;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
 }
 .welcome .welcome-image p{
     border:1px solid black;
@@ -29,4 +31,10 @@
     margin-top: 2em;
     background: black;
     opacity: 0.5;
+}
+.site-content .welcome .blockquote{
+    font-style: italic;
+    text-align: right;
+    padding:0.5em;
+    margin: 0.5em;
 }
