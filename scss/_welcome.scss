@@ -1,6 +1,7 @@
 .welcome{
     margin:0.3em 2em 0.3em 2em;
     box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+    
 }
 .welcome-image{
     max-width: 100%;
@@ -9,12 +10,14 @@
     background-image: url('https://www.bestwestern.co.uk/images/default-source/Inspire-Me/old-trafford-manchester-united.jpg?sfvrsn=0');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center; 
     margin:0 auto;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 0.3rem;
 }
 .welcome .welcome-image h2{
     padding-top:1em;
