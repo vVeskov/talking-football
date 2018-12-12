@@ -19,7 +19,13 @@ body.best-all-time-goalkeepers .welcome,body.best-all-time-goalkeepers .best-pla
 .top-keepers{
     display: grid;
     gap:1em;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr ;
+    padding: 2em 6em;
+    
+}
+.top-keepers div:last-of-type{
+    grid-column-start: 1;
+    grid-column-end: -1;
 }
 .top-keepers .main-keeper-wrapper{
     margin:1rem 0.5em 1rem 0.5em;
@@ -30,7 +36,7 @@ body.best-all-time-goalkeepers .welcome,body.best-all-time-goalkeepers .best-pla
     border-radius: 0.3rem;
     padding: 1em;
     flex-wrap: wrap;
-    border:2px solid black;
+    border:2px solid grey;
 }
 .top-keepers .name{
     margin-top:0.5em;
@@ -38,7 +44,6 @@ body.best-all-time-goalkeepers .welcome,body.best-all-time-goalkeepers .best-pla
     font-weight: bold;
     padding-bottom: 0.7em;
     font-size: 1.2em;
-    
 }
 .top-keepers img{
     border-radius: 0.3em;
@@ -48,7 +53,7 @@ body.best-all-time-goalkeepers .welcome,body.best-all-time-goalkeepers .best-pla
 }
 .top-keepers .main-keeper-wrapper:hover{
     box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
-    border:2px solid red;
+    border:2px solid lightgreen;
   
 }
 .top-keepers .keeper-number{
@@ -79,7 +84,7 @@ box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
     // margin-right:1em;
     text-align: center;
 }
-.keeper-birthday,.keeper-country{
+.keeper-birthday,.keeper-country,.keeper-death{
  font-weight: bold;
 }
 .main-honours{

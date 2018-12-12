@@ -1,0 +1,68 @@
+body.best-all-time-defenders .welcome,body.best-all-time-defenders .best-players,body.best-all-time-defenders .best-matches-wrapper{
+    display: none;
+}
+body.best-all-time-defenders h3{
+    margin-top: 1em;
+    font-family: 'Noto Serif TC', serif;
+}
+body.best-all-time-defenders hr{
+    width: 7.5em;
+}
+.top-defenders{
+    margin:1em auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap; 
+}
+.defender-wrapper{
+    display: grid;
+    width: 258px;
+    height: 258px;
+    margin: 1em;
+}
+
+.defenders-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.defender-info, .defender-pic{
+    width: 256px;
+    height: 256px;
+    border:2px solid black;
+    border-radius: 0.3em;
+}
+.defender-info{
+    grid-row-start: 1;
+    grid-row-end:-1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    display: none;
+}
+.defender-pic{
+    grid-row-start: 1;
+    grid-row-end:-1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    
+}
+.defender-pic:hover{
+    opacity: 0;
+}
+.defender-pic:hover + .defender-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #DBD3C2;
+    color:black;
+}
+.defender-style,.defender-style-name{
+    font-weight: bold;
+    text-align: center;
+}
+.defender-name,.defender-clubs{
+    text-align: center;
+}
