@@ -1,0 +1,13 @@
+body.best-all-time-midfielders .welcome,body.best-all-time-midfielders .best-players,body.best-all-time-midfielders .best-matches-wrapper{
+    display: none;
+}
+.midfielders-title{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.midfielders-title hr{
+    width: 7.5em;
+}
