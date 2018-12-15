@@ -1,0 +1,54 @@
+body.best-all-time-attackers .welcome,body.best-all-time-attackers .best-players,body.best-all-time-attackers .best-matches-wrapper{
+    display: none;
+}
+.attacker-wrapper{
+    max-width: 100%;
+    height: 30rem;
+    display: flex;
+}
+.attacker-info{
+    width: 50vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.attacker-info p {
+    
+    padding: 0;
+    margin-bottom: 1rem;
+}
+.attacker-style{
+    font-weight: bold;
+}
+.attacker-description{
+    font-family: 'Noto Serif TC', serif;
+} 
+.attacker-pic-ronaldihno,.attacker-pic-ronaldo,.attacker-pic-pele,
+.attacker-pic-maradona,.attacker-pic-messi,.attacker-pic-cruyff,.attacker-pic-cristiano{
+    width: 50vw;  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.attacker-pic-ronaldihno{
+    background-image: URL("http://wallpapertop.net/wp-content/uploads/2017/10/Ronaldinho%20Download%20Free%20Backgrounds%20HD.jpg");
+}
+.attacker-pic-ronaldo{
+    background-image: URL("https://i.ytimg.com/vi/OiRymWHbbi8/maxresdefault.jpg");
+}
+.attacker-pic-pele{
+    background-image: URL("http://2.bp.blogspot.com/-eOGgmiP0zDw/UydiU2DEzfI/AAAAAAAAB7Y/MX2nfdozj-8/s1600/Pele+HD+Wallpapers123.jpg");
+}
+.attacker-pic-maradona{
+    background-image: URL("https://wallpapercave.com/wp/wp1821192.jpg");
+}
+.attacker-pic-messi{
+    background-image: URL("https://i.ytimg.com/vi/Orh592OBoKY/maxresdefault.jpg");
+}
+.attacker-pic-cruyff{
+    background-image: URL("https://wallpapercave.com/wp/wp2180686.jpg");
+}
+.attacker-pic-cristiano{
+    background-image: URL("https://statics.sportskeeda.com/wp-content/uploads/2016/08/cr7-1472215049-800.jpg");
+}

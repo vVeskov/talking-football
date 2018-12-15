@@ -8,6 +8,110 @@ body.best-all-time-midfielders .welcome,body.best-all-time-midfielders .best-pla
     justify-content: center;
     align-items: center;
 }
+.midfielders-title h3{
+    font-family: 'Noto Serif TC', serif;
+}
 .midfielders-title hr{
     width: 7.5em;
 }
+.top-midfielders{
+    padding: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.midfielder-wrapper{
+    display: grid;
+    width: 256px;
+    height: 256px;
+}
+.midfielder-wrapper:hover{
+    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+}
+.midfielder-info{
+    width: 256px;
+    height: 256px;
+    grid-row-start: 1;
+    grid-row-end:-1;
+    grid-column-start: 1;
+    grid-column-end: -1;   
+    opacity: 0;
+}
+.midfielder-pic{
+    width: 256px;
+    height: 256px;
+    grid-row-start: 1;
+    grid-row-end:-1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.midfielder-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #DBD3C2;
+}
+.midfielder-info span{
+    text-align: center;
+}
+.midfielder-info .midfielder-style{
+    font-weight: bold;
+}
+.more-info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-info label{
+    text-decoration: none;
+    background: #F78600;
+    color:white;
+    padding: 0.3em 1.5em;
+    border-radius: 0.3rem;
+    margin-top: 0.3em;
+}
+.more-info label:hover{
+    background: #EE2654;
+    color:white;
+}
+.midfielder-name,.midfielder-nation,.midfielder-clubs,.midfielder-goals{
+    margin-top:0.5em;
+}
+.midfielder{
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    height: auto;
+    margin: 1em;
+}
+
+#zidane-check-state,#xavi-check-state,#scholes-check-state,#lampard-check-state,
+#gerrard-check-state,#iniesta-check-state,#beckham-check-state,#pirlo-check-state,
+#modric-check-state,#pogba-check-state,#kaka-check-state,#viera-check-state{
+    display: none;
+}
+#zidane-check-state:checked + .midfielder-wrapper .midfielder-info,
+#xavi-check-state:checked + .midfielder-wrapper .midfielder-info,
+#scholes-check-state:checked + .midfielder-wrapper .midfielder-info,
+#lampard-check-state:checked + .midfielder-wrapper .midfielder-info,
+#gerrard-check-state:checked + .midfielder-wrapper .midfielder-info,
+#iniesta-check-state:checked + .midfielder-wrapper .midfielder-info,
+#beckham-check-state:checked + .midfielder-wrapper .midfielder-info,
+#pirlo-check-state:checked + .midfielder-wrapper .midfielder-info,
+#modric-check-state:checked + .midfielder-wrapper .midfielder-info,
+#pogba-check-state:checked + .midfielder-wrapper .midfielder-info,
+#kaka-check-state:checked + .midfielder-wrapper .midfielder-info,
+#viera-check-state:checked + .midfielder-wrapper .midfielder-info
+{
+    opacity: 1;
+}
+
+
+
+
+
+
