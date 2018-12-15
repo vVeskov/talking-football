@@ -28,7 +28,6 @@ body{
     color:#FFFFFF;
     font-weight: bold;
     font-size: 1.2em;
-    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 1px red;
 }
 .site-header span{
     color:white;
@@ -37,36 +36,6 @@ body{
 .site-header span:last-of-type{
     color:red;
     font-family: 'Source Code Pro', monospace;
-}
-.best-matches-wrapper{
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: center;
- flex-wrap: wrap;
- margin:4em 4em 0.3em 4em;
- border-radius: 0.3rem;
- opacity: 0.7;
- 
-}
-.best-matches-wrapper img{
-    margin-right: 2em;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
-}
-
-.best-matches-wrapper a{
-    text-decoration: none;
-    font-size: 1.5em;
-    color: black;
-    padding: 0.5rem 0;
-}
-.best-matches-wrapper a:hover{
-    color:red;
-    border-bottom: 2px solid black;
-}
-.best-matches-wrapper span{
-    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 .shankly-hr{
     width: 3em;
