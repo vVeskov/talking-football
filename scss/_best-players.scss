@@ -1,12 +1,11 @@
 .best-players{
-    margin:1em 2em 2em 2em;
+    margin:0 auto 1em auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.goalkeepers{
+.goalkeepers,.defenders,.midfielders,.attackers{
     display: flex;
     max-width: 100%;
     height: 30rem;
@@ -14,35 +13,53 @@
     flex-direction: column;
     align-items: center;
     padding: 2em;
-    background-image: url("https://wallpapercave.com/wp/wp1885431.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.goalkeepers:hover{
     box-shadow: 0 0 5em 0.1em rgba(1, 50, 67, 0.5);
 }
-.goalkeepers p{
+.defenders:hover{
+    box-shadow: 0 0 5em 0.1em rgba(241, 90, 34, 0.5);
+}
+.midfielders:hover{
+    box-shadow: 0 0 5em 0.1em rgba(1, 50, 67, 0.5);
+}
+.attackers:hover{
+    box-shadow: 0 0 5em 0.1em rgba(46, 49, 49, 0.5);
+}
+.goalkeepers p,.defenders p,.midfielders p,.attackers p{
     text-align: center;
     font-weight: bold;
-    color:black;
-    background: white;
+    color:white;
+    background: black;
     opacity: 0.5;
     max-width: 60%;
     padding: 0;
     margin-bottom: 1.5em;
 }
-.goalkeepers, .defenders, .midfielders, .attackers {
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.goalkeepers{
+    background-image: url("https://wallpapercave.com/wp/wp1885431.jpg");
 }
-.goalkeepers button{
+.defenders{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/04b31370-cd46-4bdc-a50c-53e837461795/d81k8jv-2b4f2b12-b853-4c76-89dd-2793c40a1972.jpg/v1/fill/w_1024,h_640,q_70,strp/soccer_ball_background_hd_by_ameblaziken004_d81k8jv-fullview.jpg");
+}
+.midfielders{
+    background-image: url("http://getwallpapers.com/wallpaper/full/4/9/b/1046425-soccer-desktop-backgrounds-1920x1080-windows.jpg")
+}
+.attackers{
+    background-image:url("https://wallpapercave.com/wp/wc1693773.jpg");
+}
+
+
+.goalkeepers button,.defenders button,.midfielders button,.attackers button{
     background: #DBD3C2;
     color:black;
-    font-size: 0.8em;
+    font-size: 0.8em;   
 }
-.goalkeepers button:hover{
+.goalkeepers button:hover,.defenders button:hover,.midfielders button:hover,.attackers button:hover{
     background: red;
     color:black;
 }
@@ -50,6 +67,11 @@
 .best-players button{
     padding:0.5em 0.8em;
     border-radius: 0.3rem;
+}
+.players-hr{
+    width: 7.5rem;
+    border:2px solid black;
+    margin: 2em auto;
 }
 
 

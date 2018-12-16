@@ -1,6 +1,18 @@
 
-body.best-all-time-attackers .welcome,body.best-all-time-attackers .best-players,body.best-all-time-attackers .best-matches-wrapper{
+body.best-all-time-attackers .welcome,body.best-all-time-attackers .best-players,
+body.best-all-time-attackers .best-matches-wrapper,body.best-all-time-attackers .news-feed{
     display: none;
+}
+.attackers-title{
+    margin-top: 1em;
+    font-family: 'Noto Serif TC', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.attackers-title hr{
+    width: 7.5em;
 }
 .attacker-wrapper{
     max-width: 100%;
