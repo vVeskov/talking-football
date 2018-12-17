@@ -3,4 +3,39 @@ layout: site
 title: Login
 permalink: /login/
 ---
-<h2>login.html</h2>
+
+<div class="login-form">
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Login</legend>
+
+            <p class="field">
+                <label for="password">Username</label>
+                <span class="input">
+                    <input type="text" name="username" id="username" />
+                    <span class="actions"></span>
+                    <i class="fas fa-user"></i>
+                </span>
+            </p>
+
+            <p class="field">
+                <label for="password">Password</label>
+                <span class="input">
+                    <input type="password" name="password" id="password" />
+                    <span class="actions"></span>
+                    <i class="fas fa-key"></i>
+                </span>
+            </p>
+            <div class="password-info">
+                <div class="remember-password">
+                    <input type="checkbox">
+                    <span>Remember me</span>
+                </div>
+                <span><a href="#">Forgot Password?</a> </span>
+            </div>
+
+            <input type="submit" class="submit" value="Login" />
+        </fieldset>
+    </form>
+</div>

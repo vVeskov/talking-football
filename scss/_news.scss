@@ -13,7 +13,7 @@
     
 }
 .news-wrapper{
-    width: 70%;
+    width: 65%;
     padding-right: 0.5em;
     margin-right: 1em;
     background: #A6A6A6;
@@ -22,6 +22,7 @@
 }
 .livescore{
     padding-top: 1em;
+    width: 30%;
 }
 .news-info-wrapper{    
     height: 128px;
@@ -49,4 +50,9 @@
     font-weight: bold;
     padding-bottom: 1em;
     border-bottom: 2px solid black;
+}
+.scores{
+    padding-right: 0.5em;
+    width: 100%;
+    text-align: left;
 }

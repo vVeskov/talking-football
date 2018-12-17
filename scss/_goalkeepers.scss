@@ -1,5 +1,6 @@
 body.best-all-time-goalkeepers .welcome,body.best-all-time-goalkeepers .best-players,
-.best-all-time-goalkeepers .best-matches-wrapper,body.best-all-time-goalkeepers .news-feed{
+.best-all-time-goalkeepers .best-matches-wrapper,body.best-all-time-goalkeepers .news-feed,
+body.best-all-time-goalkeepers .players-hr{
     display: none;
 }
 .keepers h3{
@@ -21,14 +22,15 @@ body.best-all-time-goalkeepers .welcome,body.best-all-time-goalkeepers .best-pla
     display: grid;
     gap:1em;
     grid-template-columns:1fr ;
-    padding: 2em 6em;
-    
+    padding: 2em 6em;   
 }
+
 .top-keepers div:last-of-type{
     grid-column-start: 1;
     grid-column-end: -1;
 }
 .top-keepers .main-keeper-wrapper{
+   
     margin:1rem 0.5em 1rem 0.5em;
     display: flex;
     flex-direction: column;

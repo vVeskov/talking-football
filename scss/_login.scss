@@ -1,0 +1,139 @@
+body.login .welcome,body.login .best-players,
+body.login .best-matches-wrapper,body.login .news-feed,body.login footer,body.login .players-hr{
+    display: none;
+}
+
+.login-form form {
+    max-width: 30rem;
+}
+
+.login-form form,
+.login-form form fieldset,
+.login-form form legend,
+.login-form form label,
+.login-form form input,
+.login-form form textarea,
+.login-form form select {
+	display: block;
+}
+
+.login-form form fieldset,
+.login-form form legend {
+	border: 1px solid black;
+	background: #F9F9F9;
+	border-radius: 0.3rem;
+	box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,0.1);
+}
+
+.login-form form fieldset {
+	padding: 2.5em 2em 2em 2em;
+	position: relative;
+}
+
+.login-form form legend {
+	width: 30%;
+	padding: 0.5rem 1rem;
+	left: -1px;
+	top: -1.4rem;
+	position: absolute;
+}
+
+.login-form form label {
+	font-weight: bold;
+}
+
+.field {
+	
+}
+
+.login-form .field .input {
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
+.login-form .field .input:after {
+	display: block;
+	content: '';
+}
+
+.login-form .field .input input {
+	border: none;
+	flex: 1 1 auto;
+	padding: 0.8rem;
+	outline: none;
+	background: transparent;
+	z-index: 2;
+	order: 2;
+}
+
+.login-form .field .input .fas {
+	z-index: 2;
+	position: relative;
+	padding: 0 0 0 0.8rem;
+	font-size: 0.9em;
+	order: 1;
+}
+
+.login-form .field .input input + .actions {
+	display: block;
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 1;
+}
+
+.login-form .field .input input:focus + .actions {
+	border-color: #A733F2;
+}
+
+.login-form .field .input input:focus + .actions + .fas {
+	color: #A733F2
+}
+.login-form{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,rgba(238, 83, 80, 0.5),rgba(142,45,226,.8)),url("https://i.pinimg.com/originals/a9/88/a4/a988a47e605cacc02b0bb41c85270de3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.login-form form .submit{
+    padding: 0.2em 1em;
+    border-radius: 0.8em;
+    background: black;
+    color:white;
+}
+.login-form form .submit:hover{
+    background: #A733F2;
+    color:white;
+}
+.login-form form{
+    background: green;
+}
+.password-info{
+    font-size: 0.6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.2em;
+}
+.remember-password{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+fieldset p:last-of-type{
+    padding-bottom: 0.7rem;
+}
+.password-info span a{
+    text-decoration: none;
+    color:black;
+}
+.password-info span a:hover{
+    color:#A733F2;
+}

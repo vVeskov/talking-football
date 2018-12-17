@@ -1,0 +1,45 @@
+body.contacts .welcome,body.contacts .best-players,
+body.contacts .best-matches-wrapper,body.contacts .news-feed,body.contacts footer,
+body.contacts .players-hr{
+    display: none;
+}
+.contact-form{
+    height: 100vh;
+    padding: 1em 8em 0 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form span{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2em;
+    color:black;
+}
+.contact-form input,.contact-form textarea{
+    margin-bottom: 2em;
+    border:none;
+    background: #E6E6E6;
+    border-bottom: 1px solid black;
+    width: 20em;
+}
+.contact-form input:focus,.contact-form textarea:focus{
+    outline: none;
+    border-bottom: 2px solid red;
+}
+.contact-form button{
+    width: 14em;
+    margin-bottom: 2em;
+    padding: 0.5em 1em;
+    border-radius: 0.5rem;
+    background: black;
+    color:red;
+}
+.contact-form button:focus{
+    outline: none;
+}
+.contact-form button:hover{
+    background: red;
+    color:black;
+}
+

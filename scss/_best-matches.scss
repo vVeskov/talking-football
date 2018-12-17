@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 2em auto;
+    margin: 0 auto 1rem auto;
     
 }
 .best-matches-wrapper:hover{
@@ -42,7 +42,8 @@
 }
 
 body.best-matches .welcome,body.best-matches .best-players,
-body.best-matches .best-matches-wrapper,body.best-matches .news-feed{
+body.best-matches .best-matches-wrapper,body.best-matches .news-feed,
+body.best-matches .players-hr{
     display: none;
 }
 
