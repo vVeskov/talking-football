@@ -3,35 +3,29 @@ body.best-all-time-goalkeepers .welcome,body.best-all-time-goalkeepers .best-pla
 body.best-all-time-goalkeepers .players-hr{
     display: none;
 }
-.keepers h3{
-    text-align: center;
-    padding: 0.5em 2em;
-    margin:0;
-}
 .keepers{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-.keepers hr{
-    width: 7.5em;
+    h3{
+    text-align: center;
+    padding: 0.5em 2em;
+    margin:0;
+    }
+    hr{
+    width: $hrWidth;
+    border: $borderColor;
+    }
 }
 .top-keepers{
     display: grid;
     gap:1em;
     grid-template-columns:1fr ;
     padding: 2em 6em;   
-}
-
-.top-keepers div:last-of-type{
-    grid-column-start: 1;
-    grid-column-end: -1;
-}
-.top-keepers .main-keeper-wrapper{
-   
-    margin:1rem 0.5em 1rem 0.5em;
+    .main-keeper-wrapper{
+        margin:1rem 0.5em 1rem 0.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,33 +34,30 @@ body.best-all-time-goalkeepers .players-hr{
     padding: 1em;
     flex-wrap: wrap;
     border:2px solid grey;
-}
-.top-keepers .name{
-    margin-top:0.5em;
+    }
+    .name{
+     margin-top:0.5em;
     color:black;
     font-weight: bold;
     padding-bottom: 0.7em;
     font-size: 1.2em;
-}
-.top-keepers img{
+    }
+    img{
     border-radius: 0.3em;
     max-width: 100%;
     height: auto;
     margin-bottom: 1em;
-}
-.top-keepers .main-keeper-wrapper:hover{
-    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
-    border:2px solid lightgreen;
-  
-}
-.top-keepers .keeper-number{
-    font-weight: bold;
-}
-.top-keepers hr.top-keeper-border{
-    width: 2em;
-}
-.keeper-info img{
-    margin:0;
+    }
+    .main-keeper-wrapper:hover{
+        box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+        border:2px solid lightgreen;
+    }
+    .keeper-number{
+        font-weight: bold;
+    }
+    hr.top-keeper-border{
+        width: 2em;
+    }
 }
 .keeper-wrapper{
     display: flex;
@@ -78,24 +69,27 @@ body.best-all-time-goalkeepers .players-hr{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
-.keepers-picture img{
-margin:0;
-box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+    img{
+        margin:0;
+    }
 }
 .keepers-picture{
     // margin-right:1em;
     text-align: center;
+    img{
+    margin:0;
+    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+    }
 }
 .keeper-birthday,.keeper-country,.keeper-death{
  font-weight: bold;
 }
 .main-honours{
-    background: #D5E4EC;
+    background: $goalkeepersHonoursColor;
     font-weight: bold;
     // border:1px solid black;
 }
 .team-honours{
-    background: #ECE4D5;
+    background: $goalkeepersTeamColor;
     // border:1px solid black;
 }

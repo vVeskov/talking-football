@@ -41,22 +41,15 @@ body.login .best-matches-wrapper,body.login .news-feed,body.login footer,body.lo
 .login-form form label {
 	font-weight: bold;
 }
-
-.field {
-	
-}
-
 .login-form .field .input {
 	display: flex;
 	position: relative;
 	align-items: center;
 }
-
 .login-form .field .input:after {
 	display: block;
 	content: '';
 }
-
 .login-form .field .input input {
 	border: none;
 	flex: 1 1 auto;
@@ -66,7 +59,6 @@ body.login .best-matches-wrapper,body.login .news-feed,body.login footer,body.lo
 	z-index: 2;
 	order: 2;
 }
-
 .login-form .field .input .fas {
 	z-index: 2;
 	position: relative;
@@ -74,7 +66,6 @@ body.login .best-matches-wrapper,body.login .news-feed,body.login footer,body.lo
 	font-size: 0.9em;
 	order: 1;
 }
-
 .login-form .field .input input + .actions {
 	display: block;
 	background: #FFF;
@@ -84,11 +75,9 @@ body.login .best-matches-wrapper,body.login .news-feed,body.login footer,body.lo
 	top: 0; left: 0; right: 0; bottom: 0;
 	z-index: 1;
 }
-
 .login-form .field .input input:focus + .actions {
 	border-color: #A733F2;
 }
-
 .login-form .field .input input:focus + .actions + .fas {
 	color: #A733F2
 }

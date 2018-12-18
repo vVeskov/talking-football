@@ -1,9 +1,6 @@
 .news-feed-wrapper{
     display: flex;
 }
-.news-feed{
-  
-}
 .latest-news,.news-livescore{
     border-bottom: 1px solid red;
     width: 7em;
@@ -12,13 +9,12 @@
 }
 .news-livescore{
     width: 5.5em;
-    
 }
 .news-wrapper{
     width: 65%;
     padding-right: 0.5em;
     margin-right: 1em;
-    background: #A6A6A6;
+    background: $newsBackgroundColor;
     padding-top: 1em;
     padding-bottom:1em;
 }
@@ -27,34 +23,35 @@
     width: 30%;
 }
 .news-info-wrapper{    
-    height: 128px;
+    height: $newsFixedHeight;
     display: flex;
     margin-left: 0.5em;
-}
-.news-info-wrapper p{
-    padding-bottom: 1em;
-    padding-left: 1em;
-    font-weight: bold;
-    overflow: auto;
-}
-.news-info-wrapper span{
-    padding-left: 1em;
+    p{
+        padding-bottom: 1em;
+        padding-left: 1em;
+        font-weight: bold;
+        overflow: auto;
+    }
+    span{
+        padding-left: 1em;
+    }
 }
 .livescore-wrapper{
-    height: 128px;
+    height: $newsFixedHeight;
     margin-left: 0.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.scores p{
-    font-weight: bold;
-    padding-bottom: 1em;
-    border-bottom: 2px solid black;
-}
+
 .scores{
     padding-right: 0.5em;
     width: 100%;
     text-align: left;
+    p{
+        font-weight: bold;
+        padding-bottom: 1em;
+        border-bottom: 2px solid black;
+    }
 }

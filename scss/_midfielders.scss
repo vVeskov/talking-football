@@ -9,12 +9,13 @@ body.best-all-time-midfielders .players-hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.midfielders-title h3{
-    font-family: 'Noto Serif TC', serif;
-}
-.midfielders-title hr{
-    width: 7.5em;
+    h3{
+        font-family: 'Noto Serif TC', serif;
+    }
+    hr{
+        width: $hrWidth;
+    border: $borderColor;
+    }
 }
 .top-midfielders{
     padding: 1.5em;
@@ -26,15 +27,15 @@ body.best-all-time-midfielders .players-hr{
 }
 .midfielder-wrapper{
     display: grid;
-    width: 256px;
-    height: 256px;
+    width: $picsFixedSize;
+    height: $picsFixedSize;
 }
 .midfielder-wrapper:hover{
     box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
 }
 .midfielder-info{
-    width: 256px;
-    height: 256px;
+    width: $picsFixedSize;
+    height: $picsFixedSize;
     grid-row-start: 1;
     grid-row-end:-1;
     grid-column-start: 1;
@@ -42,8 +43,8 @@ body.best-all-time-midfielders .players-hr{
     opacity: 0;
 }
 .midfielder-pic{
-    width: 256px;
-    height: 256px;
+    width: $picsFixedSize;
+    height: $picsFixedSize;
     grid-row-start: 1;
     grid-row-end:-1;
     grid-column-start: 1;
@@ -55,30 +56,30 @@ body.best-all-time-midfielders .players-hr{
     justify-content: center;
     align-items: center;
     background: #DBD3C2;
-}
-.midfielder-info span{
-    text-align: center;
-}
-.midfielder-info .midfielder-style{
-    font-weight: bold;
+    span{
+        text-align: center;
+    }
+    .midfielder-style{
+        font-weight: bold;
+    }
 }
 .more-info{
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.more-info label{
-    text-decoration: none;
-    background: #F78600;
-    color:white;
-    padding: 0.3em 1.5em;
-    border-radius: 0.3rem;
-    margin-top: 0.3em;
-}
-.more-info label:hover{
+    label{
+        text-decoration: none;
+        background: #F78600;
+        color:white;
+        padding: 0.3em 1.5em;
+        border-radius: 0.3rem;
+        margin-top: 0.3em;
+    }
+    label:hover{
     background: #EE2654;
     color:white;
+    }
 }
 .midfielder-name,.midfielder-nation,.midfielder-clubs,.midfielder-goals{
     margin-top:0.5em;
@@ -109,7 +110,7 @@ body.best-all-time-midfielders .players-hr{
 #kaka-check-state:checked + .midfielder-wrapper .midfielder-info,
 #viera-check-state:checked + .midfielder-wrapper .midfielder-info
 {
-    opacity: 1;
+    opacity: 0.9;
 }
 
 

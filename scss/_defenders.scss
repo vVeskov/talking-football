@@ -9,7 +9,8 @@ body.best-all-time-defenders h3{
     font-family: 'Noto Serif TC', serif;
 }
 body.best-all-time-defenders hr{
-    width: 7.5em;
+    width: $hrWidth;
+    border: $borderColor;
 }
 .top-defenders{
     margin:1em auto;
@@ -20,8 +21,8 @@ body.best-all-time-defenders hr{
 }
 .defender-wrapper{
     display: grid;
-    width: 258px;
-    height: 258px;
+    width: $fixedSize;
+    height: $fixedSize;
     margin: 1em;
 }
 
@@ -32,8 +33,8 @@ body.best-all-time-defenders hr{
     justify-content: center;
 }
 .defender-info, .defender-pic{
-    width: 256px;
-    height: 256px;
+    width: $picsFixedSize;
+    height: $picsFixedSize;
     border:2px solid black;
     border-radius: 0.3em;
 }

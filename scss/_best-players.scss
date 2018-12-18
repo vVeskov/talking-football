@@ -30,12 +30,12 @@
 .attackers:hover{
     box-shadow: 0 0 5em 0.1em rgba(46, 49, 49, 0.5);
 }
-.goalkeepers p,.defenders p,.midfielders p,.attackers p{
+.best-players p{
     text-align: center;
     font-weight: bold;
     color:white;
     background: black;
-    opacity: 0.5;
+    opacity: $opacitySize;
     max-width: 60%;
     padding: 0;
     margin-bottom: 1.5em;
@@ -52,21 +52,16 @@
 .attackers{
     background-image:url("https://wallpapercave.com/wp/wc1693773.jpg");
 }
-
-
-.goalkeepers button,.defenders button,.midfielders button,.attackers button{
+.best-players button{
     background: #DBD3C2;
     color:black;
-    font-size: 0.8em;   
+    font-size: 0.8em; 
+    padding:0.5em 0.8em;
+    border-radius: 0.3rem;  
 }
-.goalkeepers button:hover,.defenders button:hover,.midfielders button:hover,.attackers button:hover{
+.best-players button:hover{
     background: red;
     color:black;
-}
-
-.best-players button{
-    padding:0.5em 0.8em;
-    border-radius: 0.3rem;
 }
 .players-hr{
     width: 7.5rem;

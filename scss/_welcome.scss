@@ -1,6 +1,6 @@
 .welcome{
     margin:0 auto;
-    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+    box-shadow: $mainBoxShadow;
     
 }
 .welcome-image{
@@ -10,33 +10,26 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    margin:0 auto;
+    margin:0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 0.3rem;
-}
-.welcome .welcome-image h2{
-    padding-top:1em;
-    color:red;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
-}
-.welcome .welcome-image p{
-    border:1px solid black;
-    color:white;
-    font-weight:bold;
-    max-width: 50%;
-    text-align: center;
-    padding-bottom: 0;
-    margin-top: 2em;
-    background: black;
-    opacity: 0.5;
-}
-.site-content .welcome .blockquote{
-    font-style: italic;
-    text-align: right;
-    padding:0.5em;
-    margin: 0.5em;
+    p{
+        color:white;
+        font-weight:bold;
+        max-width: 50%;
+        text-align: center;
+        padding-bottom: 0;
+        margin-top: 2em;
+        background: black;
+        opacity: 0.7;
+    }
+    .blockquote{
+        font-style: italic;
+        text-align: right;
+        padding:0.5em;
+        margin: 0.5em;
+    }
 }

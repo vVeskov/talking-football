@@ -10,35 +10,33 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto ;
+    span{
+        background: black;
+        opacity: $opacitySize;
+        max-width: 60%;
+        text-align: center;
+        color:white; 
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+    a{
+        text-decoration: none;
+    }
+    button{
+        padding: 0.4em 1em;
+        border-radius: 0.3em;
+        background: #DBD3C2;
+        color: black;
+        font-size: 0.8em;
+    }
     
 }
 .best-matches-wrapper:hover{
     box-shadow: 0 0 5em 0.1em rgba(102,51,153,0.50);
 }
-.best-matches-wrapper span{
-    background: black;
-    opacity: 0.5;
-    max-width: 60%;
-    text-align: center;
-    color:white; 
-    font-size: 1.2em;
-    padding-bottom: 1em;
-    
-}
-.best-matches-wrapper a{
-    text-decoration: none;
-}
-.best-matches-wrapper button{
-    padding: 0.4em 1em;
-    border-radius: 0.3em;
-    background: #DBD3C2;
-    color: black;
-    font-size: 0.8em;
-}
 .best-matches-wrapper button:hover{
     background: red;
-    
 }
 
 body.best-matches .welcome,body.best-matches .best-players,
@@ -46,39 +44,37 @@ body.best-matches .best-matches-wrapper,body.best-matches .news-feed,
 body.best-matches .players-hr{
     display: none;
 }
-
 .best-all-time-matches{
     margin:2em 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.best-all-time-matches div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 80%;
-    margin-bottom: 1em;
-    padding: 0.5em;
-    border-radius: 0.3rem;
-}
-.best-all-time-matches div p:last-of-type{
-    padding-bottom: 0.5em;
-}
-.best-all-time-matches img {
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        margin-bottom: 1em;
+        padding: 0.5em;
+        border-radius: 0.3rem;
+    }
+    div p:last-of-type{
+        padding-bottom: 0.5em;
+    }
+    img{
     border-radius: 0.3rem;
     max-width: 70%;
     height: auto;
     margin-bottom: 1em;
+    }
+
 }
-.best-all-time-matches div .number{
-    
+.best-all-time-matches div .number{  
     border:1px solid black;
     padding: 0.1em 0.2em; 
     border-radius: 50%;
-  
 }
 .best-all-time-matches div span {
     padding-top:0.5em;

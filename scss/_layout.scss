@@ -1,5 +1,5 @@
 body{
-    background: #E6E6E6;
+    background: $backgroundColor;
 }
 body button{
     outline: none;
@@ -8,7 +8,7 @@ body button{
     display: none;
 }
 .site-header{
-    background: #252525;
+    background: $siteHeaderBackgroundColor;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -23,7 +23,7 @@ body button{
 }
 .site-title a{
     text-decoration: none;
-    font-size: 2em;
+    font-size: $siteTitleFontSize;
     padding-left: 0.5em;
 }
 .site-description{
