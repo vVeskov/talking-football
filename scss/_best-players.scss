@@ -58,10 +58,12 @@
     font-size: 0.8em; 
     padding:0.5em 0.8em;
     border-radius: 0.3rem;  
+    transition: 0.7s;
 }
 .best-players button:hover{
     background: red;
     color:black;
+   
 }
 .players-hr{
     width: 7.5rem;

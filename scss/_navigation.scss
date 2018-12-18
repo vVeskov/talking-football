@@ -13,6 +13,7 @@
 }
 .navigation ul li{
     list-style-type: none;
+    
 }
 .navigation ul li a {
     text-decoration: none;
@@ -20,8 +21,11 @@
     margin-right: 0.7em;
     padding: 0.3em 0;
     border-radius: 0.3em;
+    transition: 0.5s;
 }
 .navigation ul li a:hover{
+    
     border-bottom: 1px solid white;
     border-top: 1px solid white;
+    color:white;
 }
