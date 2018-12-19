@@ -7,42 +7,7 @@ body button{
 .listing-posts{
     display: none;
 }
-.site-header{
-    background: $siteHeaderBackgroundColor;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    z-index: 1000;
-    padding: 0.5em 0;
-    position: sticky;
-    top:0;
-    max-width: 100%;
-    padding: 0;
-}
-.site-title a{
-    text-decoration: none;
-    font-size: $siteTitleFontSize;
-    padding-left: 0.5em;
-}
-.site-description{
-    padding: 0;
-    color:#FFFFFF;
-    font-weight: bold;
-    font-size: 1.2em;
-}
-.site-header span{
-    color:white;
-    font-family: 'Source Code Pro', monospace;
-}
-.site-header span:last-of-type{
-    color:red;
-    font-family: 'Source Code Pro', monospace;
-}
-.shankly-hr{
-    width: 3em;
-}
+
 
 
 

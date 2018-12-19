@@ -5,19 +5,19 @@ body.register .players-hr{
 }
 .register-box{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    padding: 2em;
+    padding: 0 2em 2em 2em;
 }
 .left-register-box{
     padding: 2em; 
 }
 .left-register-box span{
-    font-size: 1.2em;
+    font-size: 0.8em;
     margin-bottom: 1rem;
 }
 .left-register-box,.right-register-box{
-    width: 50%;
+    width: 100%;
     padding: 3em 1em;
     display: flex;
     flex-direction: column;

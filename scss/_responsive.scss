@@ -1,7 +1,154 @@
-@media screen and (min-width: 150px) { body { font-size: 10px } }
-@media screen and (min-width: 300px) { body { font-size: 12px } }
-@media screen and (min-width: 500px) { body { font-size: 14px } }
-@media screen and (min-width: 600px) { body { font-size: 16px } }
-@media screen and (min-width: 800px) { body { font-size: 18px } }
-@media screen and (min-width: 1300px) { body { font-size: 21px } }
-@media screen and (min-width: 1800px) { body { font-size: 23px } }
+@media screen and (min-width: 150px) { 
+    body { font-size: 10px } 
+}
+@media screen and (min-width:
+ 300px) { 
+    body {
+        font-size: 12px;
+    } 
+}
+@media screen and (min-width:
+ 500px) { 
+    body { 
+        font-size: 14px
+     }
+     .news-text{
+        width: 80%;
+    } 
+
+}
+@media screen and (min-width:
+ 600px) { 
+    body { font-size: 16px } 
+    .news-text{
+        width: 85%;
+    } 
+}
+@media screen and (min-width:
+ 800px) { 
+     body { font-size: 18px } 
+     .news-text{
+        width: 90%;
+    } 
+    // body .navigation li a{
+    //     margin-right: 2em;
+    // }
+    // .site-header{
+    //     padding-bottom:0.7rem;
+    // }
+}
+@media screen and (min-width:1007px){
+    .site-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        label{
+            display: none;
+        }
+        .navigation{
+            display: flex;
+            width: auto;
+
+        }
+        .navigation ul{
+            display: flex;
+            flex-direction: row;
+        }
+        .navigation ul li{
+            margin: 0;
+        } 
+    }
+    #livescore-state{
+        display: none;
+    }
+    .livescore{
+        display: flex;
+        flex-direction: column; 
+        padding-top: 0.6em;
+    }
+    .news-feed{
+        display: flex;
+        flex-direction: row;
+    }
+    .all-news{
+        width: 65%;
+    }
+    .livescore-help-wrapper{
+        width: 33%;
+    }
+    .livescore:before{
+        display: inline-block;
+        content:'Livescore';
+        font-size: 1.6em;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        margin-left: 0.5rem;
+    }
+    .news-text{
+        width: 100%;
+    }
+    .scores{
+        height: 128px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            padding-left: 0.3rem;
+            width: 100%;
+        }
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    body footer .left-side-footer{
+        padding: 0;
+    }
+    body footer .middle-footer{
+        margin: 0;
+        i{
+            margin-right: 0.5rem;
+        }
+    }
+    body footer .right-side-footer a{
+        margin-right: 0.5rem;
+    }
+    .attackers, .defenders, .goalkeepers, .midfielders{
+        height: 25rem;
+    }
+    .contact-form button {
+        font-size: 1.2rem;
+    }
+    .register-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .left-register-box,.right-register-box{
+            width: 45%;
+            margin: 0 auto;
+        }
+        button{
+            font-size: 1.2rem;
+        }
+    }
+        
+}
+
+@media screen and (min-width:
+ 1300px) {
+     body { font-size: 21px }
+     .contact-form button {
+        font-size: 1.4rem;
+    }
+    .register-box button{
+        font-size: 1.4rem;
+    }
+     }
+@media screen and (min-width:
+ 1800px) {
+     body { font-size: 23px }
+     }

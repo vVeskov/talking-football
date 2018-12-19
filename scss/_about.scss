@@ -33,9 +33,10 @@ body.about .players-hr{
     h5{
         margin-top: 2em;
         text-align: center;
+        padding: 0 0.5rem;
     }
     p{
-        padding: 1rem 5em;
+        padding: 1rem 2rem;
     }
     h4{
         margin: 1rem 0;
@@ -55,12 +56,14 @@ body.about .players-hr{
     h4{
         background: white;
         opacity: 0.8;
+        text-align: center;
     }   
 }
 .benefits{
     margin-top: 2em;
     padding-top: 2em;
     background:black;
+    
     border-bottom: 2px solid lightgreen;
     .first-row i{
         color:lightgreen;

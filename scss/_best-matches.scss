@@ -1,6 +1,6 @@
 .best-matches-wrapper{
     max-width: 100%;
-    height: 30rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,6 +78,7 @@ body.best-matches .players-hr{
     border-radius: 50%;
 }
 .best-all-time-matches div span {
+    text-align: center;
     padding-top:0.5em;
     margin-bottom: 1em;
     font-weight: bold;

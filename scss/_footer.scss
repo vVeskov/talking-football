@@ -2,22 +2,35 @@ footer{
     background: black;
     padding: 1em;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
-    .left-side-footer,.right-side-footer{
-        padding: 0 2em;
+    .left-side-footer{
+        padding: 0 0 0.5rem 0;
     }
     span,i{
         color:#8A8A8A;
     }
     a{
-        margin-right: 0.8em;
+        margin-bottom: 0.8rem;
         color:#8A8A8A;
         text-decoration: none;
         transition: 0.7s;
     }
 }
+.middle-footer{
+    margin-bottom: 0.5rem;
+    a {
+        margin-right: 0.5rem;
+    }
+}
+.right-side-footer{
+    padding: 0;
+    a{
+        margin-right: 0.5rem;
+    }
+}
+
 footer a:hover{
     border-bottom: 1px solid red;
     color:white;
