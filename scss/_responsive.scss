@@ -34,6 +34,9 @@
     height: 30rem;
     width: 50%;
 }
+.attacker-hr{
+    display: none;
+}
 .attacker-wrapper{
     @include flexRow;
 }
