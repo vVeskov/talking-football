@@ -4,10 +4,7 @@ body.best-all-time-goalkeepers .players-hr{
     display: none;
 }
 .keepers{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexColumnStyle;
     flex-wrap: wrap;
     h3{
     text-align: center;
@@ -26,10 +23,7 @@ body.best-all-time-goalkeepers .players-hr{
     padding: 2rem;   
     .main-keeper-wrapper{
         margin:1rem 0.5em 1rem 0.5em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+        @include flexColumnStyle;
     border-radius: 0.3rem;
     padding: 1em;
     flex-wrap: wrap;
@@ -59,16 +53,11 @@ body.best-all-time-goalkeepers .players-hr{
         width: 2em;
     }
 }
-.keeper-wrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 .keeper-info{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+   
     img{
         margin:0;
     }

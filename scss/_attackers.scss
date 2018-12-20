@@ -7,9 +7,7 @@ body.best-all-time-attackers .players-hr{
 .attackers-title{
     margin-top: 1em;
     font-family: 'Noto Serif TC', serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flexColumnStyle;
     margin-bottom: 2em;
     hr{
         width: $hrWidth;
@@ -19,10 +17,7 @@ body.best-all-time-attackers .players-hr{
 .attacker-wrapper{
     max-width: 100%;
     // height: $attackerHeight;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexColumnStyle;
 }
 .attacker-info{
     // width: $attackerWidth;
@@ -51,15 +46,13 @@ body.best-all-time-attackers .players-hr{
     // width: $attackerWidth;
     width: 100%;
     height: 20rem;  
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    @include backgroundProps;
 }
 .attacker-pic-ronaldihno{
     background-image: URL("http://wallpapertop.net/wp-content/uploads/2017/10/Ronaldinho%20Download%20Free%20Backgrounds%20HD.jpg");
 }
 .attacker-pic-ronaldo{
-    background-image: URL("https://i.ytimg.com/vi/OiRymWHbbi8/maxresdefault.jpg");
+    background-image: URL("http://www.bhmpics.com/walls/ronaldo_luis_nazario_de_lima-wide.jpg");
 }
 .attacker-pic-pele{
     background-image: URL("http://2.bp.blogspot.com/-eOGgmiP0zDw/UydiU2DEzfI/AAAAAAAAB7Y/MX2nfdozj-8/s1600/Pele+HD+Wallpapers123.jpg");

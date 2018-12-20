@@ -1,0 +1,24 @@
+@mixin flexColumnStyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@mixin backgroundProps{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@mixin borderAndShadow {
+    border:2px solid black;
+    box-shadow: 0 0 5em 0.1em rgba(0,0,0,0.50);
+}
+@mixin flexRowStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexRow{
+    display: flex;
+    flex-direction: row;
+}

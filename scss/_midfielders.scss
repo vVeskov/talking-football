@@ -5,10 +5,7 @@ body.best-all-time-midfielders .players-hr{
 }
 .midfielders-title{
     margin-top: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexColumnStyle;
     h3{
         font-family: 'Noto Serif TC', serif;
     }
@@ -65,9 +62,7 @@ body.best-all-time-midfielders .players-hr{
 }
 .more-info{
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexRowStyle;
     label{
         text-decoration: none;
         background: #F78600;

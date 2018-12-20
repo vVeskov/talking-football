@@ -15,6 +15,10 @@
      .news-text{
         width: 80%;
     } 
+    .attacker-pic-ronaldihno,.attacker-pic-ronaldo,.attacker-pic-pele,
+.attacker-pic-maradona,.attacker-pic-messi,.attacker-pic-cruyff,.attacker-pic-cristiano{
+    height: 25rem;
+}
 
 }
 @media screen and (min-width:
@@ -24,23 +28,62 @@
         width: 85%;
     } 
 }
+@media screen and(min-width:700px){
+    .attacker-pic-ronaldihno,.attacker-pic-ronaldo,.attacker-pic-pele,
+.attacker-pic-maradona,.attacker-pic-messi,.attacker-pic-cruyff,.attacker-pic-cristiano{
+    height: 30rem;
+    width: 50%;
+}
+.attacker-wrapper{
+    @include flexRow;
+}
+.attacker-info{
+    height: 30rem;
+    width: 50%;
+}
+.attacker-hr{
+    margin:1rem auto;
+}
+.top-defenders{
+    @include flexRow;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.defender-wrapper{
+    @include flexRow;
+    margin-bottom: 1rem;
+    border:2px solid black;
+    border-radius: 0.3rem;
+    height: 260px;
+}
+.defenders-hr{
+    display: none;
+}
+.defenders-title hr{
+    margin-bottom: 1rem;
+}
+.defender-pic,.defender-info{
+    border:none;
+    overflow: hidden;
+}
+.defender-pic,.defender-info{
+    border-radius: 0;
+}
+.attacker-pic-ronaldo,.attacker-pic-maradona,.attacker-pic-cruyff{
+    order:0;
+}
+}
 @media screen and (min-width:
  800px) { 
      body { font-size: 18px } 
      .news-text{
         width: 90%;
     } 
-    // body .navigation li a{
-    //     margin-right: 2em;
-    // }
-    // .site-header{
-    //     padding-bottom:0.7rem;
-    // }
+
 }
 @media screen and (min-width:1007px){
     .site-header{
-        display: flex;
-        flex-direction: row;
+        @include flexRow;
         justify-content: space-between;
         align-items: center;
         label{
@@ -57,6 +100,8 @@
         }
         .navigation ul li{
             margin: 0;
+            opacity: 1;
+            animation: none;
         } 
     }
     #livescore-state{
@@ -99,8 +144,7 @@
         }
     }
     footer{
-        display: flex;
-        flex-direction: row;
+        @include flexRow;
         align-items: center;
         justify-content: space-between;
     }
@@ -123,8 +167,7 @@
         font-size: 1.2rem;
     }
     .register-box{
-        display: flex;
-        flex-direction: row;
+        @include flexRow;
         justify-content: center;
         align-items: center;
         .left-register-box,.right-register-box{
@@ -134,10 +177,8 @@
         button{
             font-size: 1.2rem;
         }
-    }
-        
+    } 
 }
-
 @media screen and (min-width:
  1300px) {
      body { font-size: 21px }

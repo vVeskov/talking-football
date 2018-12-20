@@ -7,7 +7,9 @@ body button{
 .listing-posts{
     display: none;
 }
-
+.contact-form button,body > div > main > div > form > fieldset > input,.register-box button{
+    transition: 0.5s;
+}
 
 
 

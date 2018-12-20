@@ -87,8 +87,7 @@ body.login .best-matches-wrapper,body.login .news-feed,body.login footer,body.lo
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right,rgba(238, 83, 80, 0.5),rgba(142,45,226,.8)),url("https://i.pinimg.com/originals/a9/88/a4/a988a47e605cacc02b0bb41c85270de3.jpg");
-    background-size: cover;
-    background-position: center;
+    @include backgroundProps;
 }
 .login-form form .submit{
     padding: 0.2em 1em;
@@ -98,7 +97,8 @@ body.login .best-matches-wrapper,body.login .news-feed,body.login footer,body.lo
 }
 .login-form form .submit:hover{
     background: #A733F2;
-    color:white;
+	color:white;
+	font-size: 1.3em;
 }
 .login-form form{
     background: green;

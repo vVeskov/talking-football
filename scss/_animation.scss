@@ -1,0 +1,10 @@
+@keyframes navItemIn{
+    from{
+        opacity: 0;
+        transform: translate(-2rem,-2rem)
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}

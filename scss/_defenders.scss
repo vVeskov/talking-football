@@ -15,9 +15,7 @@ body.best-all-time-defenders hr{
 .top-defenders{
     margin:0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexColumnStyle;
     
 }
 .defender-wrapper{
@@ -29,10 +27,7 @@ body.best-all-time-defenders hr{
 }
 
 .defenders-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flexColumnStyle;
 }
 .defender-info, .defender-pic{
     width: $picsFixedSize;
@@ -52,10 +47,7 @@ body.best-all-time-defenders hr{
 //     opacity: 0.15;
 // }
 .defender-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexColumnStyle;
     background: #F4D07B;
     color:black;
     font-weight: bold;

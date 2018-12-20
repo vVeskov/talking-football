@@ -12,17 +12,14 @@ body.register .players-hr{
 .left-register-box{
     padding: 2em; 
 }
-.left-register-box span{
-    font-size: 0.8em;
+.left-register-box .sign-up{
+    font-size: 1.2em;
     margin-bottom: 1rem;
 }
 .left-register-box,.right-register-box{
     width: 100%;
     padding: 3em 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexColumnStyle;
 }
 .left-register-box input{
     margin-bottom: 2rem;
@@ -46,12 +43,10 @@ body.register .players-hr{
 .left-register-box button:hover{
     background: red;
     color:black;
+    font-size: 1.3em;
 }
 .right-register-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   @include flexColumnStyle;
     background-image: url("https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
     background-size: cover;
     background-position: center;

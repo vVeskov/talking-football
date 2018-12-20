@@ -1,10 +1,11 @@
 @import 'reset';
 @import 'variables';
+@import 'mixin';
 @import 'typography';
+@import 'animation';    
 @import 'layout';
 @import 'navigation';
 @import 'welcome';
-@import 'manchester-united';
 @import 'best-players';
 @import 'best-matches';
 @import 'goalkeepers';
@@ -18,3 +19,4 @@
 @import 'contacts';
 @import 'about';
 @import 'responsive';
+

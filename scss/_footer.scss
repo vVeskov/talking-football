@@ -2,9 +2,7 @@ footer{
     background: black;
     padding: 1em;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexColumnStyle;
     .left-side-footer{
         padding: 0 0 0.5rem 0;
     }
